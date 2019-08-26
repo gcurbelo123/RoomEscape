@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "RoomEscape Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win32",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"Win64",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscape HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscape HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscape",
+				"HTML5",
+				"Test",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscapeEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscapeEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoomEscapeEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "RoomEscapeEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoomEscapeEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		}
+	]
+}

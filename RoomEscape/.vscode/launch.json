@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "RoomEscape (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RoomEscape Win64 Debug Build",
+			"program": "C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\Binaries\\Win64\\RoomEscape-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RoomEscape (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RoomEscape Win64 DebugGame Build",
+			"program": "C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\Binaries\\Win64\\RoomEscape-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RoomEscape (Development)",
+			"request": "launch",
+			"preLaunchTask": "RoomEscape Win64 Development Build",
+			"program": "C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\Binaries\\Win64\\RoomEscape.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RoomEscape (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "RoomEscape Win64 Shipping Build",
+			"program": "C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\Binaries\\Win64\\RoomEscape-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RoomEscape (Test)",
+			"request": "launch",
+			"preLaunchTask": "RoomEscape Win64 Test Build",
+			"program": "C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\Binaries\\Win64\\RoomEscape-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RoomEscapeEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RoomEscapeEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RoomEscapeEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RoomEscapeEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RoomEscapeEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "RoomEscapeEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\18319\\Desktop\\unrealtut\\escape\\RoomEscape\\RoomEscape.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+		}
+	]
+}
