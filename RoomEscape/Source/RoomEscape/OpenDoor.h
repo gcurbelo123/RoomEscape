@@ -29,8 +29,9 @@ public:
 	void CloseDoor();
 
 private:
-	UPROPERTY(VisibleAnywhere)
-	float OpenAngle = 110.0f;
+	UPROPERTY(EditAnywhere)
+	float OpenAngle = -60.0f;
+	// float DefaultZAngle = -180.0f;
 
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
