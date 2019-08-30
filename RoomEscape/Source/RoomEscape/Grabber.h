@@ -26,4 +26,5 @@ public:
 
 private:
 	APlayerController* PlayerPawn;
+	float Reach = 100.f;
 };
